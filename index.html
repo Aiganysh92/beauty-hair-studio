@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Hair Studio | Professional Hair Salon</title>
+  <meta name="description" content="Beauty Hair Studio — professional haircuts, coloring, styling and treatments in Chicago, Illinois." />
+
+  <!-- Google Fonts: elegant heading font + clean body font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for small icons (social links, contact info) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION BAR ===================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo">Beauty <span>Hair Studio</span></a>
+
+      <!-- Hamburger button for mobile menu -->
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li id="authNavItem"><a href="#" class="nav-link" id="loginNavLink">Login</a></li>
+        <li><a href="#book" class="btn btn-nav">Book Appointment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== HOME / HERO SECTION ===================== -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-kicker">Welcome to Beauty Hair Studio</p>
+      <h1>Your Hair, Your Beauty</h1>
+      <p class="hero-subtitle">Professional Hair Styling for Every Occasion</p>
+      <a href="#book" class="btn btn-primary">Book Now</a>
+    </div>
+    <a href="#services" class="scroll-down" aria-label="Scroll to services">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===================== SERVICES SECTION ===================== -->
+  <section id="services" class="services section">
+    <div class="section-heading">
+      <p class="eyebrow">What We Offer</p>
+      <h2>Our Services</h2>
+      <p class="section-desc">From everyday cuts to full color transformations, our stylists craft looks that fit you.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- Service Card 1 -->
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Stylist giving a woman a fresh haircut">
+        </div>
+        <div class="service-info">
+          <h3>Women's Haircut</h3>
+          <p>A precision cut tailored to your face shape and lifestyle, finished with a professional blow-dry.</p>
+          <span class="price">$45</span>
+        </div>
+      </article>
+
+      <!-- Service Card 2 -->
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80" alt="Hair colorist applying color to client's hair">
+        </div>
+        <div class="service-info">
+          <h3>Hair Coloring</h3>
+          <p>Full color, balayage, or highlights using premium products for vibrant, long-lasting results.</p>
+          <span class="price">$100</span>
+        </div>
+      </article>
+
+      <!-- Service Card 3 -->
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80" alt="Hairstylist styling curled hair">
+        </div>
+        <div class="service-info">
+          <h3>Hair Styling</h3>
+          <p>Blowouts, curls, and updos for weddings, parties, or any moment that calls for extra glam.</p>
+          <span class="price">$60</span>
+        </div>
+      </article>
+
+      <!-- Service Card 4 -->
+      <article class="service-card">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Deep conditioning hair treatment being applied">
+        </div>
+        <div class="service-info">
+          <h3>Hair Treatment</h3>
+          <p>Deep conditioning and repair treatments that restore shine, softness, and strength.</p>
+          <span class="price">$80</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT US SECTION ===================== -->
+  <section id="about" class="about section">
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80" alt="Interior of Beauty Hair Studio salon">
+    </div>
+    <div class="about-content">
+      <p class="eyebrow">About Us</p>
+      <h2>Where Beauty Meets Expertise</h2>
+      <p>
+        Beauty Hair Studio has been helping clients look and feel their best with modern cuts,
+        rich color, and gentle care. Our cozy, welcoming space in the heart of Chicago is
+        designed so every visit feels relaxing, not rushed.
+      </p>
+      <ul class="about-list">
+        <li><i class="fa-solid fa-check"></i> Professional, experienced hairstylists</li>
+        <li><i class="fa-solid fa-check"></i> Warm, friendly atmosphere for every guest</li>
+        <li><i class="fa-solid fa-check"></i> High-quality products and beauty services</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== BOOK APPOINTMENT SECTION ===================== -->
+  <section id="book" class="booking section">
+    <div class="section-heading">
+      <p class="eyebrow">Reserve Your Spot</p>
+      <h2>Book an Appointment</h2>
+      <p class="section-desc">Fill out the form below and our team will be happy to confirm the details with you.</p>
+    </div>
+
+    <form id="bookingForm" class="booking-form" novalidate>
+
+      <div class="form-group">
+        <label for="customerName">Full Name</label>
+        <input type="text" id="customerName" name="customerName" placeholder="e.g. Jane Smith" autocomplete="name" required>
+        <span class="error-message" id="nameError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="e.g. (312) 555-0100" autocomplete="tel" required>
+        <span class="error-message" id="phoneError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="serviceSelect">Select Service</label>
+        <select id="serviceSelect" name="serviceSelect" required>
+          <option value="" disabled selected>Choose a service</option>
+          <option value="Women's Haircut – $45">Women's Haircut – $45</option>
+          <option value="Hair Coloring – $100">Hair Coloring – $100</option>
+          <option value="Hair Styling – $60">Hair Styling – $60</option>
+          <option value="Hair Treatment – $80">Hair Treatment – $80</option>
+        </select>
+        <span class="error-message" id="serviceError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="appointmentDate">Select Date</label>
+        <input type="date" id="appointmentDate" name="appointmentDate" required>
+        <span class="error-message" id="dateError"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="appointmentTime">Select Time</label>
+        <input type="time" id="appointmentTime" name="appointmentTime" required>
+        <span class="error-message" id="timeError"></span>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-full">Submit Request</button>
+
+      <!-- Confirmation / error message shown by script.js -->
+      <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+
+      <p class="form-note">
+        This is a front-end demo only — submitting this form does not send or save a real appointment.
+      </p>
+    </form>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section id="contact" class="contact section">
+    <div class="section-heading">
+      <p class="eyebrow">Get In Touch</p>
+      <h2>Contact Us</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <i class="fa-solid fa-location-dot"></i>
+        <h3>Address</h3>
+        <p>Chicago, Illinois</p>
+      </div>
+      <div class="contact-card">
+        <i class="fa-solid fa-phone"></i>
+        <h3>Phone</h3>
+        <p><a href="tel:+13125550100">(312) 555-0100</a></p>
+      </div>
+      <div class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <h3>Email</h3>
+        <p><a href="mailto:hello@beautyhairstudio.example">hello@beautyhairstudio.example</a></p>
+      </div>
+      <div class="contact-card">
+        <i class="fa-solid fa-clock"></i>
+        <h3>Business Hours</h3>
+        <p>Monday – Saturday<br>9 AM – 7 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-logo">Beauty <span>Hair Studio</span></p>
+
+      <div class="social-links">
+        <a href="#" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Visit our TikTok page"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" aria-label="Visit our Pinterest page"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+
+      <p class="footer-copy">&copy; <span id="year"></span> Beauty Hair Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back-to-top button, controlled by script.js -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ===================== LOGIN / SIGN UP MODAL ===================== -->
+  <div class="modal-overlay" id="authOverlay">
+    <div class="modal-box" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authModalTitle">
+      <button class="modal-close" id="authClose" aria-label="Close login dialog" type="button">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-tabs">
+        <button class="modal-tab active" id="tabLogin" type="button">Log In</button>
+        <button class="modal-tab" id="tabSignup" type="button">Sign Up</button>
+      </div>
+
+      <h2 id="authModalTitle" class="modal-title">Welcome Back</h2>
+
+      <form id="loginForm" class="auth-form" novalidate>
+        <div class="form-group">
+          <label for="loginEmail">Email</label>
+          <input type="email" id="loginEmail" name="loginEmail" placeholder="you@example.com" autocomplete="email" required>
+          <span class="error-message" id="loginEmailError"></span>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" name="loginPassword" placeholder="Enter your password" autocomplete="current-password" required>
+          <span class="error-message" id="loginPasswordError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Log In</button>
+        <p class="form-feedback" id="loginFeedback" role="status" aria-live="polite"></p>
+      </form>
+
+      <form id="signupForm" class="auth-form hidden" novalidate>
+        <div class="form-group">
+          <label for="signupName">Full Name</label>
+          <input type="text" id="signupName" name="signupName" placeholder="e.g. Jane Smith" autocomplete="name" required>
+          <span class="error-message" id="signupNameError"></span>
+        </div>
+        <div class="form-group">
+          <label for="signupEmail">Email</label>
+          <input type="email" id="signupEmail" name="signupEmail" placeholder="you@example.com" autocomplete="email" required>
+          <span class="error-message" id="signupEmailError"></span>
+        </div>
+        <div class="form-group">
+          <label for="signupPassword">Password</label>
+          <input type="password" id="signupPassword" name="signupPassword" placeholder="At least 6 characters" autocomplete="new-password" required>
+          <span class="error-message" id="signupPasswordError"></span>
+        </div>
+        <div class="form-group">
+          <label for="signupConfirm">Confirm Password</label>
+          <input type="password" id="signupConfirm" name="signupConfirm" placeholder="Re-enter your password" autocomplete="new-password" required>
+          <span class="error-message" id="signupConfirmError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Create Account</button>
+        <p class="form-feedback" id="signupFeedback" role="status" aria-live="polite"></p>
+      </form>
+
+      <p class="form-note">This is a front-end demo only — accounts are stored in your browser, not on a real server.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
