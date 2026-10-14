@@ -64,3 +64,4 @@ This is a **front-end demo only**:
 ## License
 
 This project is provided as-is for demonstration and educational purposes.
+# beauty-hair-studio
