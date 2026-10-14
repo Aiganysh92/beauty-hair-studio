@@ -1,0 +1,15 @@
+{
+  "name": "beauty-hair-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beauty Hair Studio static website - DevOps CI practice",
+  "scripts": {
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
